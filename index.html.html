@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revy Daffriel - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 100px;
+        }
+        .left {
+            max-width: 600px;
+            text-align: left;
+        }
+        h1 {
+            font-size: 70px;
+            margin: 0;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        .highlight {
+            color: #E50914;
+        }
+        p {
+            margin: 20px 0 40px;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #ccc;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: transparent;
+            color: #fff;
+            border: 2px solid #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+        .btn:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        nav {
+            position: absolute;
+            top: 20px;
+            right: 50px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 16px;
+            transition: 0.3s;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            color: #E50914;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 50px;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .profile-img {
+            max-width: 450px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="account-logo.png" alt="Logo" style="height: 40px;">
+    </div>
+    <nav>
+        <a href="index.html.html">home</a>
+        <a href="about.html">About</a>
+        <a href="#">Services</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="left">
+            <h1><span class="highlight">Revy Daffriel</span><br>Portfolio</h1>
+            <p>Welcome to my professional portfolio. Here you will find a collection of my work in digital marketing, performance marketing, and more. I specialize in creating impactful marketing strategies and driving measurable results across various platforms.</p>
+            <a href="cv.pdf" class="btn" download>Download CV</a>
+        </div>
+        <div class="right">
+            <img src="profile.jpg" alt="Revy Daffriel" class="profile-img">
+        </div>
+    </div>
+</body>
+</html>
